@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Strings related to Settings -->
+
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_master_switch">Enable SMS forwarding</string>
+
+    <string name="pref_title_sms_number">Forward to number</string>
+    <string name="pref_default_sms_number">+123456789012</string>
+
+</resources>

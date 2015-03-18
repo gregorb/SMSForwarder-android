@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="enable_forwarding"
+        android:title="@string/pref_title_master_switch"
+        android:defaultValue="false" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:key="forwarding_number"
+        android:title="@string/pref_title_sms_number"
+        android:defaultValue="@string/pref_default_sms_number"
+        android:selectAllOnFocus="true"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+</PreferenceScreen>
